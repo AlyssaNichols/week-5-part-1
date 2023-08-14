@@ -8,14 +8,16 @@ console.log('***** Object Practice *****')
   - Give it  a numeric 'shoeCount' property
   - Also give it an array 'favThreeFoods'
 */
+
 let me = {
+  // TODO - add properties here
   firstName: 'Alyssa',
   lastName: 'Nichols',
   hasSiblings: true,
   shoeCount: 12,
   favThreeFoods: ['tacos', 'chicken', 'bacon'],
-  // TODO - add properties here
 };
+
 console.log('A little about me:', me);
 
 
@@ -26,6 +28,7 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 const fullName = me.firstName + ' ' + me.lastName;
+
 console.log('My full name is', fullName);
 
 
@@ -58,5 +61,6 @@ console.log('I got a new pair! Now my shoe count is', me.shoeCount + 1);
   - Console.log your object
 */
 me.favoriteColor = 'Lavender';
+
 console.log('Added my favorite color', me);
-console.log('my favorite color is', me.favoriteColor)
+console.log('My favorite color is', me.favoriteColor);
