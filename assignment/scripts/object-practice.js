@@ -64,3 +64,7 @@ me.favoriteColor = 'Lavender';
 
 console.log('Added my favorite color', me);
 console.log('My favorite color is', me.favoriteColor);
+
+
+
+
